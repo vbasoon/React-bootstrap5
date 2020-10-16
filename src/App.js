@@ -38,30 +38,30 @@ function App() {
       </nav>
       <main>
         <div className="carousel slide" id="carouselControls" data-ride="carousel">
-          <div className="carousel-inner">
+          <div className="carousel-inner w-100">
             <div className="carousel-item active">
-              <img className="d-block w-100" src="https://images.pexels.com/photos/708932/pexels-photo-708932.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="img1" />
+              <img className="d-block w-100" src="/img/1.jpg" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="https://images.pexels.com/photos/7051/fashion-woman-girl-forest.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" />
+              <img className="d-block w-100" src="/img/2.jpg" alt="" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="img/3.jpg" alt="" />
+              <img className="d-block w-100" src="/img/3.jpg" alt="" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="img/4.jpg" alt="" />
+              <img className="d-block w-100" src="/img/4.jpg" alt="" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="./img/5.jpg" alt="" />
+              <img className="d-block w-100" src="/img/5.jpg" alt="" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="./img/6.jpg" alt="" />
+              <img className="d-block w-100" src="/img/6.jpg" alt="" />
             </div>
           </div>
-          <a href="#carouselControl" className="carousel-control-prev" role="button" data-slide="prev">
+          <a href="#carouselControls" className="carousel-control-prev" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon"></span>
           </a>
-          <a href="#carouselControl" className="carousel-control-next" role="button" data-slide="next">
+          <a href="#carouselControls" className="carousel-control-next" role="button" data-slide="next">
             <span className="carousel-control-next-icon"></span>
           </a>
         </div>
